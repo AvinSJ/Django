@@ -18,7 +18,7 @@
 
     <tr>
         <td>Desc</td>
-        <td>{{product.des}}</td>
+        <td>{{product.desc}}</td>
     </tr>
 
   {%  if product.feature  %}
@@ -44,6 +44,12 @@
         <td>Price</td>
         <td>{{product.price}}</td>
     </tr>
+
+    <tr>
+        <td></td>
+        <td><a href="/productInfo?id={{product.id}}">View Details</a>></td>
+    </tr>
+
 
 </table>
 
